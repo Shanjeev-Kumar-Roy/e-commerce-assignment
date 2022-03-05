@@ -1,0 +1,139 @@
+    .container {
+        padding-bottom: 100px;
+    }
+    
+    .button-1 {
+        background-color: rgba(111, 53, 187, 0.664);
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-weight: bolder;
+        color: white !important;
+    }
+    
+    .back-1 {
+        background-image: url("hot-gadgets/bg-2.png");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+    
+    .back-2 {
+        background-image: url("hot-gadgets/bg-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .smartphone-price {
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .see-all {
+        color: gold;
+    }
+    
+    .card {
+        border-radius: 30px;
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        margin: 20px;
+    }
+    
+    .gradient-underline {
+        padding-bottom: 4px;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .gradient-underline::after {
+        background: #f00;
+        background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+    }
+    
+    .try {
+        flex-direction: column;
+    }
+    
+    .try-1 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .try-2 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .try-3 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+    }
+    
+    .top-categories {
+        text-align: center;
+    }
+    
+    .box {
+        border: none;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 20px;
+    }
+    
+    .box img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .footer {
+        margin-top: 0;
+    }
+    
+    .col-sm-12 {
+        margin-bottom: 15px;
+    }
+    /* how to remove white space in the right side of web page */
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* this is for pale order */
+    
+    .extra img {
+        width: 100%;
+    }
+    
+    .button-trial {
+        background-color: rgb(0, 0, 0) !important;
+        border-radius: 10px !important;
+        width: 140px !important;
+        height: 40px !important;
+        font-weight: bolder !important;
+        color: beige !important;
+        text-align: center !important;
+    }
+    
+    .btn a {
+        color: white;
+    }
+    
+    .button-1 a {
+        color: white;
+    }
